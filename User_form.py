@@ -19,6 +19,7 @@ form1=st.sidebar.form(key="Options")
 st.sidebar.header("params") 
 
 ent_types=
+
 st.sidebar.multiselect("select the entities you want to extract",["person","organization","GPE"])
 text=st.text_area("sample text"," Tase enjoy his coding time at Jimma")
 
